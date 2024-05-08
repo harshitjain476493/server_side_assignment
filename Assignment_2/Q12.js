@@ -3,7 +3,5 @@ function isRegExp(value) {
 }
 
 // Example usage:
-console.log(isRegExp(/test/));        // Output: true
-console.log(isRegExp(new RegExp('a')));// Output: true
-console.log(isRegExp("Hello"));       // Output: false
-console.log(isRegExp(123));           // Output: false
+console.log("IsRegExp (/abc/):", isRegExp(/abc/));  // true
+console.log("IsRegExp ('/abc/'):", isRegExp('/abc/'));  // false
