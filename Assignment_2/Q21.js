@@ -21,5 +21,7 @@ const linkedList = new LinkedList();
 
 console.log(linkedList.isEmpty()); // Output: true
 
-linkedList.head = new Node(1);
+linkedList.head = new Node(10);
+linkedList.head.next = new Node(20);
+
 console.log(linkedList.isEmpty()); // Output: false
