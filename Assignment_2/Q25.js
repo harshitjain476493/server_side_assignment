@@ -3,5 +3,5 @@ function redirectTo(url) {
     window.location.href = url;
 }
 
-// Example usage:
+// Example:
 redirectTo("https://www.ietdavv.edu.in/index.php");
