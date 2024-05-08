@@ -1,25 +1,18 @@
 function swapCase(str) {
-    // Initialize an empty string to store the result
-    let swappedString = '';
-
-    // Iterate through each character in the input string
+    let result = "";
     for (let i = 0; i < str.length; i++) {
-        let char = str.charAt(i);
-
-        // Check if the character is uppercase
+        let char = str[i];
         if (char === char.toUpperCase()) {
-            // Convert uppercase to lowercase
-            swappedString += char.toLowerCase();
+            result += char.toLowerCase();
         } else {
-            // Convert lowercase to uppercase
-            swappedString += char.toUpperCase();
+            result += char.toUpperCase();
         }
     }
-
-    return swappedString;
+    return result;
 }
 
 // Example usage:
 const inputString = "Hello World";
 const swappedString = swapCase(inputString);
-console.log(swappedString); // Output: "hELLO wORLD"
+console.log("Original string:", inputString);
+console.log("Swapped case string:", swappedString);
