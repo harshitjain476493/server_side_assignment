@@ -30,6 +30,6 @@ function merge(left, right) {
 }
 
 // Example usage:
-const unsortedArray = [5, 3, 8, 4, 2, 7, 1, 6];
+const unsortedArray = [7, 2, 1, 6, 8, 5, 3, 4];
 const sortedArray = mergeSort(unsortedArray);
-console.log("Sorted array:", sortedArray);
+console.log("Sorted Array (Merge Sort):", sortedArray);
