@@ -37,9 +37,10 @@ class Stack {
 
 // Example usage:
 const stack = new Stack();
-stack.push(5);
 stack.push(10);
-stack.push(15);
+stack.push(20);
+stack.push(30);
+stack.push(40);
 
-console.log("Is 10 present in the stack?", stack.contains(10)); // Output: true
-console.log("Is 20 present in the stack?", stack.contains(20)); // Output: false
+console.log("Is 20 present in the stack?", stack.contains(20)); // Output: true
+console.log("Is 50 present in the stack?", stack.contains(50)); // Output: false
