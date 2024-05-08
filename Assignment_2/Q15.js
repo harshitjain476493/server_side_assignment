@@ -16,5 +16,5 @@ function displayClock() {
     console.log(hours + ":" + minutes + ":" + seconds);
 }
 
-// Call the displayClock function every second
+// Calling the displayClock function every second
 setInterval(displayClock, 1000);
