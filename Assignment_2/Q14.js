@@ -16,7 +16,7 @@ var library = [
     }
 ];
 
-// Function to display reading status of books
+
 function displayReadingStatus(books) {
     for (var i = 0; i < books.length; i++) {
         var book = books[i];
@@ -25,5 +25,5 @@ function displayReadingStatus(books) {
     }
 }
 
-// Call the function to display reading status of books in the library
+
 displayReadingStatus(library);
