@@ -4,7 +4,5 @@ function isNull(value) {
 }
 
 // Example usage:
-console.log(isNull(null)); // Output: true
-console.log(isNull(5));    // Output: false
-console.log(isNull("Hello")); // Output: false
-console.log(isNull(undefined)); // Output: false
+console.log("IsNull (null):", isNull(null));  // true
+console.log("IsNull ('hello'):", isNull('hello'));  // false
