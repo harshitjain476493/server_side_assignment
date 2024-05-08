@@ -1,22 +1,17 @@
 // Write a JavaScript program to sort a list of elements using Insertion sort
 function insertionSort(arr) {
-    const n = arr.length;
-    for (let i = 1; i < n; i++) {
-        let current = arr[i];
+    for (let i = 1; i < arr.length; i++) {
+        let key = arr[i];
         let j = i - 1;
-
-        // Move elements of arr[0..i-1], that are greater than current,
-        // to one position ahead of their current position
-        while (j >= 0 && arr[j] > current) {
+        while (j >= 0 && arr[j] > key) {
             arr[j + 1] = arr[j];
             j--;
         }
-        arr[j + 1] = current;
+        arr[j + 1] = key;
     }
     return arr;
 }
 
-// Example usage:
-const unsortedArray = [5, 3, 8, 4, 2, 7, 1, 6];
+const unsortedArray = [7, 2, 1, 6, 8, 5, 3, 4];
 const sortedArray = insertionSort(unsortedArray);
-console.log("Sorted array:", sortedArray);
+console.log("Sorted Array (Insertion Sort):", sortedArray);
