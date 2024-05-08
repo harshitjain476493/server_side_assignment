@@ -34,7 +34,7 @@ function heapify(arr, i, heapSize) {
     }
 }
 
-// Example usage:
+
 const unsortedArray = [7, 2, 1, 6, 8, 5, 3, 4];
 const sortedArray = heapSort(unsortedArray);
 console.log("Sorted Array (Heap Sort):", sortedArray);
