@@ -1,4 +1,4 @@
-const invalidJSONString = '{ "name": "John", "age": 30, "city": "New York", }';
+const invalidJSONString = '{ "name": "tony", "age": 21, "city": "Indore", }';
 
 try {
     const parsedJSON = JSON.parse(invalidJSONString);
