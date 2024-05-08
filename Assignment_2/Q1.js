@@ -9,7 +9,7 @@ function findAllIndexes(mainString, subString) {
     return indexes;
 }
 
-// Example usage:
+
 const mainString = "hello world hello hello";
 const subString = "hello";
 const indexes = findAllIndexes(mainString, subString);
