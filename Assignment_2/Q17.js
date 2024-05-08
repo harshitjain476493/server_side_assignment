@@ -4,6 +4,6 @@ function splitStringIntoWords(str) {
 }
 
 // Example usage:
-const inputString = "This is a sample string";
+const inputString = "This is an input string to check";
 const wordsArray = splitStringIntoWords(inputString);
 console.log(wordsArray);
