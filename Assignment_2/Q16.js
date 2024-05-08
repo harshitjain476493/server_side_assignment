@@ -14,7 +14,7 @@ function parseURL(url) {
     }
 }
 
-// Example usage:
+// Example:
 const url = "https://www.ietdavv.edu.in/index.php";
 const parsedURL = parseURL(url);
 console.log(parsedURL);
